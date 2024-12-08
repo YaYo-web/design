@@ -12,7 +12,7 @@ The source for this page is in `content/index.md`.
 * Välkommen till min personliga hemsida!
 
 * Hej, Jag är Aya Yousfan.
- Just nu studerar jag på "Blekinge Tekniska" Högskola där jag lär mig om programmering, webbdesign och teknikens spännande värld. Även om jag fortfarande är i ett tidigt skede av min resa är jag ivrig att lära mig och ta mig an utmaningar som hjälper mig att växa som framtida programmerare.
+ Just nu studerar jag på "Blekinge Tekniska Högskola", där jag lär mig om programmering, webbdesign och teknikens spännande värld. Även om jag fortfarande är i ett tidigt skede av min resa är jag ivrig att lära mig och ta mig an utmaningar som hjälper mig att växa som framtida programmerare.
 
 * Min dröm är att bli en skicklig programmerare som kan bygga fantastiska webbplatser, applikationer och verktyg som gör skillnad. Den här webbplatsen är ett utrymme där jag kommer att dela med mig av mina framsteg, visa upp mina projekt och dokumentera min tillväxt inom teknikområdet.
 
