@@ -1,0 +1,57 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import '../../shared/fontawesome/scss/fontawesome';
+
+$fa-font-path: '../../shared/fontawesome/webfonts';
+
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    margin-right: 10px;
+}
+
+$primary-color: #3498db;
+$spacing: 10px;
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    @include flex-center;
+    padding: $spacing;
+    background-color: $primary-color;
+
+    img {
+        margin-right: $spacing;
+        border: 2px solid darken($primary-color, 10%);
+        border-radius: 5px;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.3s ease-in-out;
+        }
+    }
+
+    .text {
+        color: lighten($primary-color, 20%);
+        font-weight: bold;
+
+        &::after {
+            content: " - styled with SASS!";
+            font-style: italic;
+        }
+    }
+}
